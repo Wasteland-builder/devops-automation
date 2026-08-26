@@ -1,0 +1,22 @@
+# 1. Python 缓存
+__pycache__/
+*.pyc
+
+# 2. IDE 配置（免得两台电脑的 VSCode/PyCharm 设置冲突）
+.vscode/
+.idea/
+
+# 3. 【运维重点】所有包含敏感信息的文件
+*.key
+*.pem
+*.crt
+*.p12
+.env                 # 存放真实数据库密码
+configs/real/        # 建议在 configs 下不要放 real 目录，或者忽略它
+inventory.ini        # Ansible 的主机清单（含有IP和登录用户）
+hosts.txt            # 服务器IP列表
+
+# 4. 大文件与日志
+*.log
+*.tar.gz
+*.zip
