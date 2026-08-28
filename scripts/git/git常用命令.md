@@ -23,3 +23,5 @@ git push -u origin main
 
 - 电脑 A 改完：`git add .` -> `git commit -m "更新磁盘清理逻辑"` -> `git push`
 - 电脑 B 上班：`git pull`
+
+> git默认不追踪空目录，所以当目录下文件内容为空时，不会上传到github仓库
