@@ -21,8 +21,8 @@
 
 ```cmd
 git config --global --unset https.proxy
-git config --global http.proxy http://127.0.0.1:实际端口
-git config --global https.proxy http://127.0.0.1:实际端口
+git config --global http.proxy http://127.0.0.1:7897
+git config --global https.proxy http://127.0.0.1:7897
 ```
 
 > ⚠️ **注意：HTTP 和 HTTPS 两个都要设置**。
